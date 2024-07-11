@@ -1,0 +1,92 @@
+[
+    {
+        "Brand": {
+            "Id": 1,
+            "Name": "Ford"
+        },
+        "Products": [
+            {
+                "Id": "F001",
+                "BrandId": 1,
+                "ProductName": "Ford Mustang",
+                "GraphicName": "mustang.png",
+                "CostPrice": 47000,
+                "MSRP": 37000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 10,
+                "Description": "Ford Mustang muscle car"
+            },
+            {
+                "Id": "F002",
+                "BrandId": 1,
+                "ProductName": "Ford F-150",
+                "GraphicName": "f150.png",
+                "CostPrice": 55000,
+                "MSRP": 50000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 20,
+                "Description": "Ford F-150 Pickup truck."
+            }
+        ]
+    },
+    {
+        "Brand": {
+            "Id": 2,
+            "Name": "Acura"
+        },
+        "Products": [
+            {
+                "Id": "A001",
+                "BrandId": 2,
+                "ProductName": "Acura TLX",
+                "GraphicName": "tlx.png",
+                "CostPrice": 57000,
+                "MSRP": 53000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 2,
+                "Description": "Acura TLX sports sedan."
+            },
+            {
+                "Id": "A002",
+                "BrandId": 2,
+                "ProductName": "Acura MDX",
+                "GraphicName": "mdx.png",
+                "CostPrice": 70000,
+                "MSRP": 67000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 5,
+                "Description": "Acura MDX SUV."
+            }
+        ]
+    },
+    {
+        "Brand": {
+            "Id": 3,
+            "Name": "BMW"
+        },
+        "Products": [
+            {
+                "Id": "B001",
+                "BrandId": 3,
+                "ProductName": "BMW M3",
+                "GraphicName": "m3.png",
+                "CostPrice": 80000,
+                "MSRP": 75000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 2,
+                "Description": "BMW M3 sedan."
+            },
+            {
+                "Id": "B002",
+                "BrandId": 3,
+                "ProductName": "BMW M4",
+                "GraphicName": "m4.png",
+                "CostPrice": 125000,
+                "MSRP": 120000,
+                "QtyOnHand": 10,
+                "QtyOnBackOrder": 5,
+                "Description": "BMW M4 sedan."
+            }
+        ]
+    }
+]
